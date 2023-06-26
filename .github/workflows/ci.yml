@@ -26,7 +26,6 @@ jobs:
           npm ci
       - name: Build the app
         run: |
-          cd hangman
           npm run build
       - name: Run component tests
         run: |
