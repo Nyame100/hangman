@@ -6,7 +6,6 @@ function App() {
       <div>Hello 47</div>
       <div>Add more Elements</div>
       <div>Add another Element</div>
-      <div>more divs</div>
     </div>
   );
 }
