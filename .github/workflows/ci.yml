@@ -32,4 +32,4 @@ jobs:
           npm run test
       - name: Start the app
         run: |
-          npm run dev
+          npm start
