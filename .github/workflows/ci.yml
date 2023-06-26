@@ -23,7 +23,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
         run: |
-          cd hangman
           npm ci
       - name: Build the app
         run: |
@@ -31,9 +30,7 @@ jobs:
           npm run build
       - name: Run component tests
         run: |
-          cd hangman
           npm run test
       - name: Start the app
         run: |
-          cd hangman
           npm run dev
